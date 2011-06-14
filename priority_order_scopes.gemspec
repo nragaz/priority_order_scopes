@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name = "priority_order_scopes"
   s.summary = "Flip through Active Record models in order using next and previous scopes and instance methods."
   s.description = "Flip through Active Record models in order using next and previous scopes and instance methods."
-  s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.version = "0.0.1"
   s.authors = ["Nick Ragaz"]
   s.email = "nick.ragaz@gmail.com"
