@@ -26,9 +26,11 @@ Example
     Job.previous(Job.priority_order.first) # => nil
     Job.previous(second_job) # => Job.priority_order.first
     
-    # next and previous respect the current scope
+    # next and previous class methods respect the current scope
     
     Job.order('name').next(Job.first) # => the job with the next name
+    
+    # next and previous instance methods always use priority order
     
     job = Job.priority_order.first
     job.next # => the job that starts second
