@@ -17,7 +17,7 @@ Example
       priority_order_scopes "started_at"
     end
     
-    Job.priority_order # => WorkQueue.order("started_at")
+    Job.priority_order # => Job.order("started_at")
     
     # by default, next and previous use the priority order (unless there
     # is a default_scope with an order defined)
